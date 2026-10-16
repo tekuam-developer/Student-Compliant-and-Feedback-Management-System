@@ -1,14 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
+/* Header style */
 .Header-wraper {
-    background-color: #20292C;
+    background-color: #47B8F5;
     padding: 20px;
     color: wheat;
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
 }
 
-header nav ul li {
-    list-style: none;
+/* home style */
+.banner-div {
+    height: 70vh;
+    width: 100%;
+    background: url("../images/home-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
